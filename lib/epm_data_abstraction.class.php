@@ -11,11 +11,6 @@ class epm_data_abstraction {
     public $config;
     public $configmod;
 
-    function __construct($config, $configmod) {
-    	
-    	$this->config = $config;
-    	$this->configmod = $configmod;
-    }
 	
     function all_products() {
         $temp = sql("SELECT * FROM endpointman_product_list WHERE id > 0",'getAll',DB_FETCHMODE_ASSOC);
