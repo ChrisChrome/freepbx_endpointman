@@ -53,12 +53,22 @@ class Endpointman implements \BMO {
 	public $eda; //endpoint data abstraction layer
 	public $tpl; //Template System Object (RAIN TPL)
 	//public $system;
+	public $config;
+	public $configmod;
+	public $system;
+	public $epm_config;
+	public $epm_advanced;
+	public $epm_templates;
+	public $epm_devices;
+	public $epm_oss;
+	public $epm_placeholders;
+	public $pagedata = [];
 
-    public $error; //error construct
-    public $message; //message construct
+	public $error; //error construct
+	public $message; //message construct
 
 	public $UPDATE_PATH;
-    public $MODULES_PATH;
+	public $MODULES_PATH;
 	public $LOCAL_PATH;
 	public $PHONE_MODULES_PATH;
 	public $PROVISIONER_BASE;
