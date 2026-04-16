@@ -48,7 +48,7 @@ class Endpointman implements \BMO {
 
 	//public $epm_config;
 
-
+	public $freepbx;
 	public $db; //Database from FreePBX
 	public $eda; //endpoint data abstraction layer
 	public $tpl; //Template System Object (RAIN TPL)
